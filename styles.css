@@ -21,7 +21,7 @@ h1 {
     color: #fff;
 }
 
-ul,.sec-text {
+ul,.sec-text,.cta-text {
     list-style-type: none; 
     font-size: 18px;
     color: #E5E7EB;
@@ -144,4 +144,65 @@ button {
     font-weight: 700;
     font-style: normal;
     align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.cta-body1 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    gap: 8px;
+}
+
+.cta-body2 {
+    align-self: center;
+    margin-left: 100px;
+}
+
+.cta-body2 > button{
+    border: 1px solid #fff;
+}
+
+.cta-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.cta-text {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    margin: 0;
+    padding: 8px;
+    text-align: center;
 }

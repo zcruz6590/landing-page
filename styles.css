@@ -53,6 +53,7 @@ ul,.sec-text {
     flex-wrap: wrap-reverse;
     justify-content: space-evenly;
     align-items: center;
+    gap: 30px;
 }
 
 .main-text {
@@ -78,5 +79,69 @@ button {
     width: 100%;
     height: auto;
     max-width: 500px;
+
 }
 
+.info-header {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto 50px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    gap: 50px;
+}
+
+.landmarks > img{
+    height: auto;
+    max-width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.landmarks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.land-text {
+    margin: 12px 0 0 0;
+    padding: 0;
+    max-width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 100px;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    align-self: flex-end;
+}

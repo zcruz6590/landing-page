@@ -5,6 +5,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+img {
+    border-radius: 8px;
+}
+
 .header {
     display: flex;
     background-color: #1F2937;
